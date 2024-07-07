@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .banner {
+    width: 100%;
+    height: 95%;
+    background-color: black;
+    
+  }
+  .navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .bg-product {
+    border: 1px;
+    padding: 10px;
+    color: white;
+    background-color: red;
+    border-radius: 30px;
+  }
+  .logo {
+    color: red;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 3px;
+  }
+  span {
+    color: white;
+  }
+  form {
+    width: 300px;
+    height: 40px;
+    display: flex;
+    background:grey;
+    padding: 1px 1px;
+    font-size: 15px;
+    border-radius: 10px;
+  
+  }
+  form input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 12px 20px;
+    font-size: 15px;
+    color: white;
+  }
+  ::placeholder {
+    color: white;
+  }
+  form button {
+    border: 0;
+    outline: none;
+    padding: 5px 20px;
+    color: white;
+    border-radius: 10px;
+    background: red;
+    cursor: pointer;
+  }
+  .navbar li {
+    list-style: none;
+    display: inline-block;
+    margin: 1
+    
+    0px;
+    position: relative;
+  }
+  .navbar li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  .container {
+    background: transparent;
+    padding: 10px 5%;
+    padding-bottom: 100px;
+  }
+  .container .box-container {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    gap: 100px;
+  }
+  .container .box-container .box {
+    color: white;
+    border-radius: 20px;
+    background: transparent;
+    border: 1px solid white;
+    padding: 30px 20px;
+  }
+  .container .box-container .box img {
+    height: 70px;
+    border-radius: 20px;
+  }
+  .container .box-container .box h3 {
+    color: red;
+    font-size: large;
+    padding: 20px 0;
+  }
+  .container .box-container .box p {
+    color: white;
+    font-size: small;
+    line-height: 1.5;
+  }
+  footer {
+    border: 1px;
+    padding: 10px;
+
+    transition: 0.5s;
+    cursor: pointer;
+    border-radius: 30px;
+    background: red;
+    color:black;
+    
+  }

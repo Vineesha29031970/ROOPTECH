@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  .banner {
+    width: 100%;
+    height: 95%;
+    background-color:black;
+   
+  }
+  .navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo {
+    color:red;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  span {
+    color: white;
+  }
+  form {
+    width: 200px;
+    height: 40px;
+    display: flex;
+    background: grey;
+    padding: 1px 1px;
+    font-size: 15px;
+    border-radius: 10px;
+
+  }
+  form input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 12px 20px;
+    font-size: 15px;
+    color: white;
+  }
+  ::placeholder {
+    color: white;
+  }
+  form button {
+    border: 0;
+    outline: none;
+    padding: 5px 20px;
+    color: white;
+    border-radius: 10px;
+    background: #3c81c5;
+    cursor: pointer;
+  }
+  
+  .navbar li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+  }
+  .navbar li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+  }
+  .navbar li:hover {
+    border: 1px;
+    padding: 10px;
+    color: white;
+    background-color:red;
+    transition: 0.5s; 
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+  .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .text h3 {
+    color: white;
+    font-weight: 600;
+    font-size: 50px;
+    letter-spacing: 3px;
+    font-family: 'Times New Roman';
+  }
+  
+  .login {
+    margin: 0px 10px;
+    border: 2px solid red;
+    padding: 13px 35px;
+    letter-spacing: 1px;
+    color: white;
+    border-radius: 30px;
+    background-color: red;
+    text-decoration: none;
+  }
+  
+
+  .signup {
+    margin: 0px 10px;
+    border: 2px solid green;
+    padding: 13px 35px;
+    letter-spacing: 1px;
+    color: white;
+    border-radius: 30px;
+    background-color: green;
+    text-decoration: none;
+  }
+  
+  
+  footer {
+    border: 1px;
+    padding: 10px;
+
+    transition: 0.5s;
+    background: red;
+    color: black;
+    
+  }
